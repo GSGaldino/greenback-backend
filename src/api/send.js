@@ -13,7 +13,7 @@ router.post('/', async (req, res) => {
   })
   const email = {
     from: 'greenbackconsultoria2@gmail.com',
-    to: 'gabriel.alumia@gmail.com',
+    to: 'greenbackconsultoria@gmail.com',
     subject: 'Greenback consultoria: Nova inscrição!',
     text: `
     Nome completo: ${req.body.fullname}
